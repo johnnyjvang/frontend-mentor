@@ -1,20 +1,27 @@
+## Welcome! 👋
+
 # Frontend Mentor - Stats preview card component
 1 - Newbie- Stats preview card component
 url: https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
 
-Assigned Designs: 
 Desktop: 
-![Desktop design](./design/desktop-preview.jpg)
-Mobile: 
-![mobile design](./design/mobile-preview.jpg)
 
-## Welcome! 👋
+![Desktop design](./design/desktop-preview.jpg)
+
+Mobile: 
+
+![mobile design](./design/mobile-design.jpg)
+
 
 Design of Challenge 1: 
+
 Desktop: 
-![Desktop design - Personal](./design/personal-design/desktop.jpg)
+
+![Desktop design - Personal](./design/personal-design/Desktop.PNG)
+
 Mobile: 
-![mobile design - Personal](./design/personal-design/mobile.jpg)
+
+![mobile design - Personal](./design/personal-design/mobile.PNG)
 
 
 ## Author
@@ -43,23 +50,25 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
 
 how to add font-families: 
 https://fonts.google.com/
- - find the ones you like
- - ex: inter, lexend deca text 
+ - find the ones you like (ex: inter, lexend deca text)
 
-  	<link rel="preconnect" href="https://fonts.googleapis.com">
-  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lexend+Deca&display=swap" rel="stylesheet">
+Add to html: 
 
-	font-family: 'Inter', sans-serif;
-  	font-family: 'Lexend Deca', sans-serif;
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+Add to css: 
+
+		font-family: 'Inter', sans-serif;
+		font-family: 'Lexend Deca', sans-serif;
 
 
-how to have text inside an image 
+how to have text inside an image w/css: 
 
-css: 
-  position: absolute;
-  top: 50%;
-  left: 50%;
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
 
 
 adding tint before:after
@@ -67,3 +76,11 @@ https://www.impressivewebs.com/image-tint-blend-css/
 
 simple color overlay w/background image: 
 https://www.youtube.com/watch?v=uLvhAJfx3T0&ab_channel=iEatWebsites
+
+
+Media query in css: 
+
+	@media screen and (max-width: 720px) {
+		code here 
+	} 
+

@@ -1,0 +1,95 @@
+1 - Newbie- Stats preview card component
+url: https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62
+
+
+Bootstrap v4.3: 
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+CSS
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+JS
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+boostrap cheat-sheet: 
+https://hackerthemes.com/bootstrap-cheatsheet/#font-weight-light
+
+
+use of flexbox or flex in css: 
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+how to justify w/css vertically and horizontally :
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_align_flex
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; (necessary to keep the item directly in the center) 
+
+
+Justify-content MDN: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
+
+/* Positional alignment */
+justify-content: center;     /* Pack items around the center */
+justify-content: start;      /* Pack items from the start */
+justify-content: end;        /* Pack items from the end */
+justify-content: flex-start; /* Pack flex items from the start */
+justify-content: flex-end;   /* Pack flex items from the end */
+justify-content: left;       /* Pack items from the left */
+justify-content: right;      /* Pack items from the right */
+
+Using Flex: 
+
+display:flex;
+justify-content: space-between;
+or 
+justify-content: space-evenly; 
+
+
+how to add font-families: 
+https://fonts.google.com/
+ - find the ones you like
+ - ex: inter, lexend deca text 
+
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+	font-family: 'Inter', sans-serif;
+  	font-family: 'Lexend Deca', sans-serif;
+
+
+how to have text inside an image 
+
+css: 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+how to overlay color over an image 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

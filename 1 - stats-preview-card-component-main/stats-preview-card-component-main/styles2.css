@@ -1,0 +1,126 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(233, 47%, 7%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  display: flex;
+  /* align items vertically */
+  align-items: center;
+  /* justify items horizontally  */
+  justify-content: center;
+  height: 100vh;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  color: white;
+}
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
+
+.accent {
+  color: hsl(277, 64%, 61%);
+}
+
+.coly{
+  /* background-color: green; */
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10vh 0;
+}
+
+.mini{
+  width: 15vw;
+}
+
+.boxy {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: hsl(244, 38%, 16%);
+  overflow: hidden;
+  border-radius: 15px;
+  width: 60vw;
+  height: 50vh;
+  padding-left: 5vw;
+}
+
+.imgy{
+  width: 30vw;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  object-fit: cover;
+  /* overflow: hidden; */
+  /* height: 100%; */
+  /* z-index: 2; */
+}
+
+.cardy {
+  /* background-color: hsl(244, 38%, 16%); */
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  width: 20vw;
+  /* padding: 10px; */
+  /* width: 50vw; */
+  /* height: 50vh; */
+  /* border-radius: 15px; */
+}
+
+.flexy{
+  font-family: 'Lexend Deca', sans-serif;
+  /* background-color: purple; */
+  /* must have display flex to use space-evenly */
+  display: flex;
+  justify-content: space-between;
+  /* width: 40vw; */
+  /* margin: auto; */
+  /* text-align: center; */
+}
+
+.vertically {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 48vh;
+  width: 20vw;
+}
+
+.arcy{
+  border-radius: 15px;
+  width: 30vw;
+  /* height: 48vh; */
+  /* border-right: 30px; */
+}
+
+.smaller{
+  width: 17vw;
+  /* width: 50px; */
+}
+
+.smaller2{
+  width: 15vw;
+  /* width: 50px; */
+}
+
+.main-paragraph{
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.boldy{
+  font-weight: 400;
+}
+
+.upper{
+  text-transform: uppercase;
+}

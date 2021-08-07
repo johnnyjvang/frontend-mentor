@@ -1,0 +1,29 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.imgy2{
+  background-image: url('images/image-header-desktop.jpg');
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* having relative fences off anyhting that isn't in the frame of this container */
+  position: relative;
+}
+
+.overlay{
+  background: linear-gradient(#e66465, #9198e5);
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.color-text{
+  color: white;
+  z-index: 1;
+}

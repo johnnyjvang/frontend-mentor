@@ -69,8 +69,48 @@ css:
   top: 50%;
   left: 50%;
 
-how to overlay color over an image 
+how to overlay color over an image:
 
+adding tint before:after
+https://www.impressivewebs.com/image-tint-blend-css/
+
+.tint {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 255, 255, 0.5);
+  transition: all 0.3s linear;
+}
+
+.tint:hover:before {
+  background: none;
+}
+
+
+you can make the background an URL:
+
+background: url(link); 
+
+
+you can add a class with a div on html by typing in the class first:
+ex: .class(click tab) -> will make a div tag with class "class" 
+.class+tab -> <div class="class"></div> 
+
+
+
+simple color overlay w/background image: 
+https://www.youtube.com/watch?v=uLvhAJfx3T0&ab_channel=iEatWebsites
 
 
 

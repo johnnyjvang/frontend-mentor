@@ -1,0 +1,105 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg) no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: contain;
+  /* height: inherit; */
+  /* width: 100vw; */
+  /* display: inline-block; */
+  /* position: relative; */
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card{
+  background: white;
+  text-align: center;
+  border-radius: 20px;
+  width: 30vw;
+  height: auto;
+  /* height: auto; */
+  margin: 20px;
+}
+
+.card-width{
+  margin: 10px;
+  padding: 20px;
+  width: 30vw - 40px;
+}
+
+.icon-img{
+  width: 5vw;
+  height: 5vh;
+  margin-right: 20px;
+}
+
+.row{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+}
+
+.squeeze{
+  text-align: left;
+  /* height: 3vh; */
+}
+
+.random-space{
+  height: 5px;
+  width: auto;
+  /* background: white; */
+}
+
+.bold-me{
+  font-weight: bold;
+}
+
+.border-radius{
+  border-radius: 20px;
+}
+
+.plan{
+  height: 5vh;
+  background: hsl(225, 100%, 94%);
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  flex
+}
+
+.no-underline{
+  text-decoration: none;
+  color: gray;
+}
+
+.payment{
+  background: hsl(224, 23%, 55%);
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.image{
+  width: 30vw;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  /* border-radius: 20px; */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+   color: hsl(228, 45%, 44%);
+ }
